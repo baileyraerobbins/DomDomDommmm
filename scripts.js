@@ -81,7 +81,7 @@ function button() {
                 let square = document.getElementById(squareNum)
                 if (square == null) {
                     //If there is no square after even square, display an alert
-                    alert("Sorry, the sequential ODD number that usually follows this EVEN number, no longer exists. Therefore, it cannot be removed.");
+                    alert("Sorry, the sequential ODD number that follows this EVEN number, no longer exists. Therefore, it cannot be removed.");
                 } else {
                     //When EVEN square is double clicked, the square AFTER should be removed
                     square.parentNode.removeChild(square);
