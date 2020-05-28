@@ -1,0 +1,32 @@
+.square {
+    height: 100px;
+    width: 100px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: black;
+    cursor: pointer;
+
+    
+}
+
+
+.square:hover{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    background-color: slategray;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
